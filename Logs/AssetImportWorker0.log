@@ -1851,3 +1851,61 @@ System memory in use after: 102.3 MB.
 Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2806.
 Total: 3.295900 ms (FindLiveObjects: 0.336700 ms CreateObjectMapping: 0.121000 ms MarkObjects: 2.698300 ms  DeleteObjects: 0.138000 ms)
 
+========================================================================
+Received Import Request.
+  Time since last request: 471.319542 seconds.
+  path: Assets/Sprites/3.png
+  artifactKey: Guid(36274c6af0bdc5e41800bbeef8c94ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/3.png using Guid(36274c6af0bdc5e41800bbeef8c94ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0678f9abc744dd7dbdf37da3e09bd1f') in 0.077731 seconds
+  Import took 0.083897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 281.805658 seconds.
+  path: Assets/DamagePlayerOnTouch.cs
+  artifactKey: Guid(dc07cbd03191e9d45b79c4b501bd5086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DamagePlayerOnTouch.cs using Guid(dc07cbd03191e9d45b79c4b501bd5086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71488cccbebed2cbeced0322438d49b3') in 0.012413 seconds
+  Import took 0.018679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.048314 seconds.
+  path: Assets/Enemy.cs
+  artifactKey: Guid(a1ff1ee5d1857484d9b5a375f9fb2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy.cs using Guid(a1ff1ee5d1857484d9b5a375f9fb2732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3010db69290bce2b1b965e689273804') in 0.007202 seconds
+  Import took 0.011567 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002701 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Warning: Annotation not found!
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.ProBuilder.EditorUtility:SetGizmoIconEnabled (System.Type,bool) (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs:593)
+UnityEditor.ProBuilder.HierarchyListener:.cctor () (at Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/HierarchyListener.cs:21)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+[Library/PackageCache/com.unity.probuilder@4.5.0/Editor/EditorCore/EditorUtility.cs line 593]
+
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2123 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.3 MB.
+System memory in use after: 102.4 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2811.
+Total: 3.025500 ms (FindLiveObjects: 0.269100 ms CreateObjectMapping: 0.112900 ms MarkObjects: 2.505600 ms  DeleteObjects: 0.136800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
